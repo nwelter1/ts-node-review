@@ -1,7 +1,6 @@
 import express, { Request, Response } from "express";
 import * as ItemService from "./items.service";
 import { BaseItem, Item } from "./item.interface";
-import { resolveSoa } from "dns";
 
 export const itemsRouter = express.Router();
 
